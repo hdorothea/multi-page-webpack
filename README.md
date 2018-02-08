@@ -18,7 +18,9 @@ Clone repo
 Create new virtual environment
 
 `virtualenv -p python3 flask`
+
 `source flask/bin/activate`
+
 `pip install -r requirements.txt`
 
 From frontend folder run
