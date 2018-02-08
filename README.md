@@ -17,19 +17,25 @@ Clone repo
 
 Create new virtual environment
 
-`virtualenv -p python3 flask`
+`virtualenv -p python3 webpack-multi-page`
 
-`source flask/bin/activate`
+Activate
+
+`source webpack-multi-page/bin/activate`
+
+Install python dependencies
 
 `pip install -r requirements.txt`
-
-From frontend folder run
-
-`npm install`
 
 Install webpack globally 
 
 `npm install -g webpack`
+
+From frontend folder
+
+Install front-end dependencies
+
+`npm install`
 
 Run 
 
