@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    This page needs jquerry, arithmetic_1, arithmetic_2 and lodash.reverse so I load the allCommon bundle the  23common bundle
+    and the site specific bundle which includes arithmetic2
+
+  <script src={{ 'manifest' | insertJs }}></script>
+  <script src={{ 'allCommon' | insertJs }}></script>
+  <script src={{ '23Common' | insertJs }}></script>
+  <script src={{ 'main2' | insertJs }}></script>
+</body>
+
+</html>

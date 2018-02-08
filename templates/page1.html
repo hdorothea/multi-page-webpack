@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    {% if home %}
+    <p> This is an example project showing how to incoperate webpack in a multi-page web app</p>
+    {% endif %}
+
+    <p>This page only needs arithmetic1 and jquerry so only the allCommon bundle and the site specific bundle is included</p>
+
+  <script src={{ 'manifest' | insertJs }}></script>
+  <script src={{ 'allCommon' | insertJs }}></script>
+  <script src={{ 'main1' | insertJs }}></script>
+</body>
+
+</html>
